@@ -9,5 +9,4 @@ def lee_csv(path):
         for row in reader:
             dicc = {key: value for key, value in zip(header, reader)}
             datos.append(dicc)
-    print(datos[0])
     return datos
