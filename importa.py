@@ -2,7 +2,7 @@ import csv
 
 
 def lee_csv(path):
-    with open(path, r) as csvfile:
+    with open(path, 'r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
         header = next(reader)
         datos = []
